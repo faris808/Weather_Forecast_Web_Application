@@ -7,7 +7,7 @@ const getWeatherData = (infoType, searchParams) => {
   return fetch(url).then((res) => res.json());
 };
 
-//here data is bascally that json data that is received from current weather API
+//Here data is bascally that json data, that is received from current weather API
 const formatCurrentWeather = (data) => {
   const {
     coord: { lat, lon },
@@ -19,7 +19,7 @@ const formatCurrentWeather = (data) => {
     wind: { speed },
   } = data;
 
-  const { main: details, icon } = weather[0]; //here main is renamed as details
+  const { main: details, icon } = weather[0]; //Here main is renamed as details
 
   return {
     lat,
@@ -76,7 +76,7 @@ const getFormattedWeatherData = async (searchParams) => {
     lon,
     units: searchParams.units,
   }).then(formatForecastWeather);
-  return { ...formattedCurrentWeather, ...formattedForecastWeather }; //It will return the data of current wetaher received from url and also formatted forecast weather data
+  return { ...formattedCurrentWeather, ...formattedForecastWeather }; //It will return the data of current weather received from url and also formatted forecast weather data
 };
 
 const formatToLocalTime = (
