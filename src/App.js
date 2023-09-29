@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header";
 import Body from "./components/Body";
-const AppLayout = () => {
+import UilReact from '@iconscout/react-unicons/icons/uil-react'
+const AppLayout=()=>{
   return (
     <>
-      <Header />
       <Body />
     </>
   );
