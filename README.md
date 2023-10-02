@@ -1,0 +1,2 @@
+# Weather_Forecast_Web_Application
+This is a Weather Forecast Web Application which shows the current weather of any location and also predicts the 3 hourly forecast and also predicts the forecast of next five days, and this application also has functionality to search the forecast for any location and it also shows the temperature in both celsius and fahrenhit on the basis of users choice. This application is designed using HTML, CSS, Javascript and ReactJS and I had used Tailwind CSS in this project for Styling.
