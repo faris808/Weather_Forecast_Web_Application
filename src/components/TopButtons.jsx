@@ -11,11 +11,11 @@ const TopButtons=({ setQuery })=>{
         title:'Delhi'
     },
     {
-        id:1,
+        id:3,
         title:'Bhopal'
     },
     {
-        id:1,
+        id:4,
         title:'Indore'
     },
     {
@@ -23,7 +23,7 @@ const TopButtons=({ setQuery })=>{
         title:'Pune'
     },
     {
-        id:5,
+        id:6,
         title:'London'
     },
   ]
