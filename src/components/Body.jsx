@@ -33,7 +33,7 @@ const Body = () => {
     return "from-yellow-700 to-orange-700";
   };
   return (
-    <div className={`mx-auto max-w-screen-md my-5 py-5 px-32 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}>
+    <div className={`mx-auto lg:w-[50%] sm:w-[95%] md:w-[70%] my-5 py-5 lg:px-20 sm:px-4 md:px-6 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}>
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
       {weather && (
